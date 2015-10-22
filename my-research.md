@@ -10,7 +10,7 @@ Mi **investigación** aborda el metabolismo de carbohidratos en el pejelagarto c
 
 
 ---
-# MAKING BLAST =)
+# MAKING ALIGNMENT =)
 `22/oct/2015`
 
 Hoy aprendí como alinear un gen contra una secuencia de referencia. A continuación lo describo paso a paso.
