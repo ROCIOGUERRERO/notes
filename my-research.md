@@ -7,9 +7,7 @@ Mi **investigación** aborda el metabolismo de carbohidratos en el pejelagarto c
 
 `foto del pejelagarto` 
 ---
-blastn\
--query data-file\
--database fish\
+
 
 ---
 # MAKING BLAST =)
@@ -22,23 +20,23 @@ Hoy aprendí como alinear un gen contra una secuencia de referencia. A continuac
 ![foto NCBI](NCBI.png) 
 
 
-La descarga se guardo en mi escritorio, así que moví el archivo con Shell a mi carpeta query que está dentro de la carpeta big-data
+2.- La descarga se guardo en mi escritorio, así que moví el archivo con Shell a mi carpeta query que está dentro de la carpeta big-data
 
 ![foto 2](shell.png) 
 
-Abri Jupyter a través de la terminal y cree la notebook homo sapiens. Desde ahí comparé mi gen de interés contra la base de datos de Geo_Male. Debido a que es la secuencia de un gen contra la base de datos de una secuencia genómica utilicé el comando blastn
+3.- Abri Jupyter a través de la terminal y cree la notebook homo sapiens. Desde ahí comparé mi gen de interés contra la base de datos de Geo_Male. Debido a que es la secuencia de un gen contra la base de datos de una secuencia genómica utilicé el comando blastn
 
 ![foto 3](blast.png)
 
-Tecleando el comando cat llame a todo mi archivo, con ello pude ver los "hits" y seleccione el de menor E-value
+4.- Tecleando el comando cat llame a todo mi archivo, con ello pude ver los "hits" y seleccione el de menor E-value
 
 ![foto 4](cat.png)
 
-Con el comando grep pude ver la secuencia del "hit" de interés
+5.- Con el comando grep pude ver la secuencia del "hit" de interés
 
 ![foto 5](grep.png)
 
-Finalmente fui al NCBI y comparé la secuencia que hizo hit contra la base de datos de proteína con un blastx y encontre los dominios conservados
+6.- Finalmente fui al NCBI y comparé la secuencia que hizo hit contra la base de datos de proteína con un blastx y encontre los dominios conservados
 
 ![foto 6](blastx.png)
 
